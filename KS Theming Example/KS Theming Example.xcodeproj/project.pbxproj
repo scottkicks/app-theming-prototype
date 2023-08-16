@@ -114,12 +114,12 @@
 			children = (
 				60BC575B2A7BF97B001E403E /* KS_Theming_ExampleApp.swift */,
 				60BC575D2A7BF97B001E403E /* ContentView.swift */,
+				60BC576A2A7BF9E8001E403E /* Planning+Notes.swift */,
 				601B6E5C2A8BC55D00B2B187 /* Components */,
 				60BC577E2A7C036A001E403E /* Theme */,
 				60BC57832A7C1C88001E403E /* Fonts */,
 				60BC576E2A7BFEEC001E403E /* Colors */,
 				601B6E5B2A8BC54300B2B187 /* Extensions */,
-				60BC576A2A7BF9E8001E403E /* Planning+Notes.swift */,
 				60BC575F2A7BF97C001E403E /* Assets.xcassets */,
 				60BC57612A7BF97C001E403E /* Preview Content */,
 			);

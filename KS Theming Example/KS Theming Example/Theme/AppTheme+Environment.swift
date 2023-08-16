@@ -11,6 +11,7 @@ struct ThemeKey: EnvironmentKey {
   static var defaultValue: ThemeProvider = appTheme
 }
 
+///Gives us access to ThemeProvider via @Environment
 extension EnvironmentValues {
   var theme: ThemeProvider {
     get { self[ThemeKey.self] }
