@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601B6E5E2A8BC57500B2B187 /* KSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B6E5D2A8BC57500B2B187 /* KSAlertView.swift */; };
+		601B6E602A8BC90600B2B187 /* KSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B6E5F2A8BC90600B2B187 /* KSButton.swift */; };
+		60BC575C2A7BF97B001E403E /* KS_Theming_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC575B2A7BF97B001E403E /* KS_Theming_ExampleApp.swift */; };
+		60BC575E2A7BF97B001E403E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC575D2A7BF97B001E403E /* ContentView.swift */; };
+		60BC57602A7BF97C001E403E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BC575F2A7BF97C001E403E /* Assets.xcassets */; };
+		60BC57632A7BF97C001E403E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BC57622A7BF97C001E403E /* Preview Assets.xcassets */; };
+		60BC576B2A7BF9E8001E403E /* Planning+Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC576A2A7BF9E8001E403E /* Planning+Notes.swift */; };
+		60BC576D2A7BFE61001E403E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC576C2A7BFE61001E403E /* AppTheme.swift */; };
+		60BC57702A7BFEFD001E403E /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC576F2A7BFEFD001E403E /* ColorStyle.swift */; };
+		60BC57782A7C011A001E403E /* ColorStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC57772A7C011A001E403E /* ColorStyleTests.swift */; };
+		60BC57802A7C03ED001E403E /* AppTheme+Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC577F2A7C03ED001E403E /* AppTheme+Environment.swift */; };
+		60BC57822A7C073E001E403E /* ColorViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC57812A7C073E001E403E /* ColorViewModifier.swift */; };
+		60BC57932A7C210A001E403E /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC57922A7C210A001E403E /* FontStyle.swift */; };
+		60BC57972A7C2D5F001E403E /* ContentSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC57962A7C2D5F001E403E /* ContentSize+Extension.swift */; };
+		60BC57992A7C2F1D001E403E /* FontViewModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC57982A7C2F1D001E403E /* FontViewModifer.swift */; };
+		60BC579B2A7C2FC9001E403E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC579A2A7C2FC9001E403E /* View+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60BC57792A7C011A001E403E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BC57502A7BF97B001E403E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BC57572A7BF97B001E403E;
+			remoteInfo = "KS Theming Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		601B6E5D2A8BC57500B2B187 /* KSAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSAlertView.swift; sourceTree = "<group>"; };
+		601B6E5F2A8BC90600B2B187 /* KSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSButton.swift; sourceTree = "<group>"; };
+		60BC57582A7BF97B001E403E /* KS Theming Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KS Theming Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BC575B2A7BF97B001E403E /* KS_Theming_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KS_Theming_ExampleApp.swift; sourceTree = "<group>"; };
+		60BC575D2A7BF97B001E403E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60BC575F2A7BF97C001E403E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60BC57622A7BF97C001E403E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60BC576A2A7BF9E8001E403E /* Planning+Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Planning+Notes.swift"; sourceTree = "<group>"; };
+		60BC576C2A7BFE61001E403E /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		60BC576F2A7BFEFD001E403E /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
+		60BC57752A7C011A001E403E /* KS Theming ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KS Theming ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BC57772A7C011A001E403E /* ColorStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyleTests.swift; sourceTree = "<group>"; };
+		60BC577F2A7C03ED001E403E /* AppTheme+Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppTheme+Environment.swift"; sourceTree = "<group>"; };
+		60BC57812A7C073E001E403E /* ColorViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModifier.swift; sourceTree = "<group>"; };
+		60BC57922A7C210A001E403E /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		60BC57962A7C2D5F001E403E /* ContentSize+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentSize+Extension.swift"; sourceTree = "<group>"; };
+		60BC57982A7C2F1D001E403E /* FontViewModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewModifer.swift; sourceTree = "<group>"; };
+		60BC579A2A7C2FC9001E403E /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60BC57552A7BF97B001E403E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC57722A7C011A001E403E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		601B6E5B2A8BC54300B2B187 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60BC579A2A7C2FC9001E403E /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		601B6E5C2A8BC55D00B2B187 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				601B6E5D2A8BC57500B2B187 /* KSAlertView.swift */,
+				601B6E5F2A8BC90600B2B187 /* KSButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		60BC574F2A7BF97B001E403E = {
+			isa = PBXGroup;
+			children = (
+				60BC575A2A7BF97B001E403E /* KS Theming Example */,
+				60BC57762A7C011A001E403E /* KS Theming ExampleTests */,
+				60BC57592A7BF97B001E403E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60BC57592A7BF97B001E403E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60BC57582A7BF97B001E403E /* KS Theming Example.app */,
+				60BC57752A7C011A001E403E /* KS Theming ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BC575A2A7BF97B001E403E /* KS Theming Example */ = {
+			isa = PBXGroup;
+			children = (
+				60BC575B2A7BF97B001E403E /* KS_Theming_ExampleApp.swift */,
+				60BC575D2A7BF97B001E403E /* ContentView.swift */,
+				601B6E5C2A8BC55D00B2B187 /* Components */,
+				60BC577E2A7C036A001E403E /* Theme */,
+				60BC57832A7C1C88001E403E /* Fonts */,
+				60BC576E2A7BFEEC001E403E /* Colors */,
+				601B6E5B2A8BC54300B2B187 /* Extensions */,
+				60BC576A2A7BF9E8001E403E /* Planning+Notes.swift */,
+				60BC575F2A7BF97C001E403E /* Assets.xcassets */,
+				60BC57612A7BF97C001E403E /* Preview Content */,
+			);
+			path = "KS Theming Example";
+			sourceTree = "<group>";
+		};
+		60BC57612A7BF97C001E403E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60BC57622A7BF97C001E403E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60BC576E2A7BFEEC001E403E /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				60BC576F2A7BFEFD001E403E /* ColorStyle.swift */,
+				60BC57812A7C073E001E403E /* ColorViewModifier.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		60BC57762A7C011A001E403E /* KS Theming ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				60BC57772A7C011A001E403E /* ColorStyleTests.swift */,
+			);
+			path = "KS Theming ExampleTests";
+			sourceTree = "<group>";
+		};
+		60BC577E2A7C036A001E403E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				60BC576C2A7BFE61001E403E /* AppTheme.swift */,
+				60BC577F2A7C03ED001E403E /* AppTheme+Environment.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		60BC57832A7C1C88001E403E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				60BC57922A7C210A001E403E /* FontStyle.swift */,
+				60BC57962A7C2D5F001E403E /* ContentSize+Extension.swift */,
+				60BC57982A7C2F1D001E403E /* FontViewModifer.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60BC57572A7BF97B001E403E /* KS Theming Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BC57662A7BF97C001E403E /* Build configuration list for PBXNativeTarget "KS Theming Example" */;
+			buildPhases = (
+				60BC57542A7BF97B001E403E /* Sources */,
+				60BC57552A7BF97B001E403E /* Frameworks */,
+				60BC57562A7BF97B001E403E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KS Theming Example";
+			productName = "KS Theming Example";
+			productReference = 60BC57582A7BF97B001E403E /* KS Theming Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60BC57742A7C011A001E403E /* KS Theming ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BC577B2A7C011A001E403E /* Build configuration list for PBXNativeTarget "KS Theming ExampleTests" */;
+			buildPhases = (
+				60BC57712A7C011A001E403E /* Sources */,
+				60BC57722A7C011A001E403E /* Frameworks */,
+				60BC57732A7C011A001E403E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BC577A2A7C011A001E403E /* PBXTargetDependency */,
+			);
+			name = "KS Theming ExampleTests";
+			productName = "KS Theming ExampleTests";
+			productReference = 60BC57752A7C011A001E403E /* KS Theming ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60BC57502A7BF97B001E403E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					60BC57572A7BF97B001E403E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					60BC57742A7C011A001E403E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 60BC57572A7BF97B001E403E;
+					};
+				};
+			};
+			buildConfigurationList = 60BC57532A7BF97B001E403E /* Build configuration list for PBXProject "KS Theming Example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60BC574F2A7BF97B001E403E;
+			productRefGroup = 60BC57592A7BF97B001E403E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60BC57572A7BF97B001E403E /* KS Theming Example */,
+				60BC57742A7C011A001E403E /* KS Theming ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60BC57562A7BF97B001E403E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BC57632A7BF97C001E403E /* Preview Assets.xcassets in Resources */,
+				60BC57602A7BF97C001E403E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC57732A7C011A001E403E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60BC57542A7BF97B001E403E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BC576B2A7BF9E8001E403E /* Planning+Notes.swift in Sources */,
+				60BC576D2A7BFE61001E403E /* AppTheme.swift in Sources */,
+				601B6E602A8BC90600B2B187 /* KSButton.swift in Sources */,
+				60BC579B2A7C2FC9001E403E /* View+Extensions.swift in Sources */,
+				60BC57932A7C210A001E403E /* FontStyle.swift in Sources */,
+				60BC57822A7C073E001E403E /* ColorViewModifier.swift in Sources */,
+				60BC57992A7C2F1D001E403E /* FontViewModifer.swift in Sources */,
+				60BC575E2A7BF97B001E403E /* ContentView.swift in Sources */,
+				60BC57972A7C2D5F001E403E /* ContentSize+Extension.swift in Sources */,
+				60BC57702A7BFEFD001E403E /* ColorStyle.swift in Sources */,
+				60BC575C2A7BF97B001E403E /* KS_Theming_ExampleApp.swift in Sources */,
+				60BC57802A7C03ED001E403E /* AppTheme+Environment.swift in Sources */,
+				601B6E5E2A8BC57500B2B187 /* KSAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC57712A7C011A001E403E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BC57782A7C011A001E403E /* ColorStyleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60BC577A2A7C011A001E403E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BC57572A7BF97B001E403E /* KS Theming Example */;
+			targetProxy = 60BC57792A7C011A001E403E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60BC57642A7BF97C001E403E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60BC57652A7BF97C001E403E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60BC57672A7BF97C001E403E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KS Theming Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 36DF83GAG4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottclampet.KS-Theming-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60BC57682A7BF97C001E403E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KS Theming Example/Preview Content\"";
+				DEVELOPMENT_TEAM = 36DF83GAG4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottclampet.KS-Theming-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60BC577C2A7C011A001E403E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36DF83GAG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottclampet.KS-Theming-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KS Theming Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KS Theming Example";
+			};
+			name = Debug;
+		};
+		60BC577D2A7C011A001E403E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36DF83GAG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottclampet.KS-Theming-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KS Theming Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KS Theming Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60BC57532A7BF97B001E403E /* Build configuration list for PBXProject "KS Theming Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BC57642A7BF97C001E403E /* Debug */,
+				60BC57652A7BF97C001E403E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BC57662A7BF97C001E403E /* Build configuration list for PBXNativeTarget "KS Theming Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BC57672A7BF97C001E403E /* Debug */,
+				60BC57682A7BF97C001E403E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BC577B2A7C011A001E403E /* Build configuration list for PBXNativeTarget "KS Theming ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BC577C2A7C011A001E403E /* Debug */,
+				60BC577D2A7C011A001E403E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60BC57502A7BF97B001E403E /* Project object */;
+}
